@@ -296,29 +296,36 @@
             Preencha o formulário ao lado e entrarei em contato o mais rápido
             possível.
           </h3>
-          <form class="formcontato__form" onsubmit="enviarFormulario(event)">
+          <form class="formcontato__form" id="myForm">
             <input
               class="formcontato__input"
               type="text"
               id="nome"
-              placeholder="Nome" required />
+              placeholder="Nome" required 
+              name="name"
+              />
             <input
               class="formcontato__input"
               type="email"
               id="email"
-              placeholder="Email" required />
+              placeholder="Email" required 
+              name="email"/>
             <input
               class="formcontato__input"
               type="text"
               id="assunto" 
-              placeholder="Assunto" required />
+              placeholder="Assunto" required 
+              name="subject"/>
             <textarea
               class="formcontato__textarea"
               rows="5"
               cols="40"
               id="mensagem"
               name="mensagem"
-              placeholder="Sua mensagem" required ></textarea>
+              placeholder="Sua mensagem" required 
+              name="message"></textarea>
+              <input type="hidden" name="_template" value="box">
+              <input type="hidden" name="_captcha" value="false">
             <button class="formcontato__botao">Enviar mensagem</button>
           </form>
         </div>

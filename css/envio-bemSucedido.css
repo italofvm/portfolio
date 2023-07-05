@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  padding: 100px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: var(--branco);
+}
+
+p {
+  margin-bottom: 30px;
+  color: var(--branco);
+}
+
+.btn {
+  padding: 10px 20px;
+  background: var(--Azul-escuro);
+  color: var(--branco);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+
+.btn:hover {
+  background: var(--branco);
+  color: var(--Cinza-carvão);
+}
