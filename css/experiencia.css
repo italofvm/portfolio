@@ -1,0 +1,118 @@
+/*--Experiência--*/
+.experience {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    color: var(--branco);
+}
+
+.experience__section__title {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experience__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.experiencie__box{
+    background-color: var(--Cinza-carvão);
+    border-radius: 0.2em;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 1em 0;
+    padding: 1.5em;
+    width: 100%;
+}
+
+.experience__img {
+    height: auto;
+    max-width: 100%;
+    max-height: 600px;
+    width: auto;
+}
+
+.experience__title {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.experience__text {
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.experiencia__botao--repo {
+    background-color: var(--branco);
+    border: 1px solid var(--Azul-escuro);
+    border-radius: 3px;
+    color: var(--Azul-escuro);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 1em;
+    transition: 0.3s ease;
+}
+
+.experiencia__botao--repo:hover{
+    background-color: #007acc;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+}
+
+.experiencia__botao--demo {
+    background-color: var(--Azul-escuro);
+    border: 1px solid var(--branco);
+    border-radius: 3px;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 1em;
+    transition: 0.3s ease;
+}
+
+.experiencia__botao--demo:hover{
+    background-color: var(--branco);
+    border: 1px solid var(--Azul-escuro);
+    color: var(--Azul-escuro);
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .experience {
+        padding: 30px;
+    }
+
+    .experience__section__title {
+        font-size: 1.375em;
+    }
+
+    .experiencie__box {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .experience__img {
+        height: auto;
+        max-width: 100%;
+        max-height: 250px;
+        width: auto;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 480px) {
+    .experiencie__box {
+        padding: 1em;
+    }
+
+    .experience__img {
+        max-height: 200px;
+    }
+}

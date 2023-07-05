@@ -1,0 +1,44 @@
+/*--Sobre mim--*/
+
+.about {
+    background-color: var(--Cinza-carvão);
+    color: var(--branco);
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.about__title {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: .3em;
+}
+
+.about__paragraph {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+    width: 47em;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .about__container {
+        padding: 30px 0;
+    }
+
+    .about__title {
+        padding: 5px 10px;
+    }
+
+    .about__paragraph {
+        padding: 5px 10px;
+        width: 100%;
+    }
+}

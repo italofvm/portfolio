@@ -1,0 +1,26 @@
+/*footeer*/
+
+section.footer{
+    color: var(--branco);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footer__rodape p{
+    text-align: center;
+}
+
+.footer__rodape a{
+    color: var(--branco);
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+  
+}
